@@ -26,6 +26,7 @@
     <li><a href="1/">Multiples of 3 and 5</a></li>
     <li><a href="2/">Even Fibonacci numbers</a></li>
     <li><a href="3/">Largest prime factor</a></li>
+    <li><a href="4/">Largest palindrome product</a></li>
   </ol>
 </details>
 
