@@ -38,10 +38,5 @@
 
 ### Brute force approach ###
 limit: int = 1000
-total: int = 0
-
-for i in range(limit):
-  if i % 3 == 0 or i % 5 == 0:
-    total += i
-
+total: int = sum([n for n in range(limit) if n % 3 == 0 or n % 5 == 0])
 print(total)
