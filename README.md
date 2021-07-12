@@ -31,6 +31,7 @@
     <li><a href="6/">Sum square difference</a></li>
     <li><a href="7/">10001st prime</a></li>
     <li><a href="8/">Largest product in a series</a></li>
+    <li><a href="9/">Special Pythagorean triplet</a></li>
   </ol>
 </details>
 
