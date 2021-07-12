@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="https://projecteuler.net/images/clipart/euler_portrait.png" alt="Euler Painting" height="150px"/>
+  <img src="https://projecteuler.net/images/clipart/euler_portrait.png" alt="Euler Painting" height="300px"/>
 </p>
 
 <h1 align="center"> Project Euler </h1>
