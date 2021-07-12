@@ -29,6 +29,7 @@
     <li><a href="4/">Largest palindrome product</a></li>
     <li><a href="5/">Smallest multiple</a></li>
     <li><a href="6/">Sum square difference</a></li>
+    <li><a href="7/">10001st prime</a></li>
   </ol>
 </details>
 
