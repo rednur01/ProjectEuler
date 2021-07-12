@@ -23,8 +23,8 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#/tree/master/1">Multiples of 3 and 5</a></li>
-    <li><a href="#/tree/master/2">Even Fibonacci numbers</a></li>
+    <li><a href="1/">Multiples of 3 and 5</a></li>
+    <li><a href="2/">Even Fibonacci numbers</a></li>
   </ol>
 </details>
 
