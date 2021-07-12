@@ -32,6 +32,8 @@
     <li><a href="7/">10001st prime</a></li>
     <li><a href="8/">Largest product in a series</a></li>
     <li><a href="9/">Special Pythagorean triplet</a></li>
+    <li><a href="10/">Summation of primes</a></li>
+
   </ol>
 </details>
 
