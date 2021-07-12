@@ -23,16 +23,16 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="1/">Multiples of 3 and 5</a></li>
-    <li><a href="2/">Even Fibonacci numbers</a></li>
-    <li><a href="3/">Largest prime factor</a></li>
-    <li><a href="4/">Largest palindrome product</a></li>
-    <li><a href="5/">Smallest multiple</a></li>
-    <li><a href="6/">Sum square difference</a></li>
-    <li><a href="7/">10001st prime</a></li>
-    <li><a href="8/">Largest product in a series</a></li>
-    <li><a href="9/">Special Pythagorean triplet</a></li>
-    <li><a href="10/">Summation of primes</a></li>
+    <li><a href="001/">Multiples of 3 and 5</a></li>
+    <li><a href="002/">Even Fibonacci numbers</a></li>
+    <li><a href="003/">Largest prime factor</a></li>
+    <li><a href="004/">Largest palindrome product</a></li>
+    <li><a href="005/">Smallest multiple</a></li>
+    <li><a href="006/">Sum square difference</a></li>
+    <li><a href="007/">10001st prime</a></li>
+    <li><a href="008/">Largest product in a series</a></li>
+    <li><a href="009/">Special Pythagorean triplet</a></li>
+    <li><a href="010/">Summation of primes</a></li>
 
   </ol>
 </details>
