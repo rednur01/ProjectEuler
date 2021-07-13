@@ -38,6 +38,7 @@
     <li><a href="013/">Large sum</a></li>
     <li><a href="014/">Longest Collatz sequence</a></li>
     <li><a href="015/">Lattice paths</a></li>
+    <li><a href="016/">Power digit sum</a></li>
 
   </ol>
 </details>
