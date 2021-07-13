@@ -37,6 +37,7 @@
     <li><a href="012/">Highly divisible triangular number</a></li>
     <li><a href="013/">Large sum</a></li>
     <li><a href="014/">Longest Collatz sequence</a></li>
+    <li><a href="015/">Lattice paths</a></li>
 
   </ol>
 </details>
