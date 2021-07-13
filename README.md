@@ -35,6 +35,7 @@
     <li><a href="010/">Summation of primes</a></li>
     <li><a href="011/">Largest product in a grid</a></li>
     <li><a href="012/">Highly divisible triangular number</a></li>
+    <li><a href="013/">Large sum</a></li>
 
   </ol>
 </details>
