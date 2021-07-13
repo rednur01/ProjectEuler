@@ -33,6 +33,7 @@
     <li><a href="008/">Largest product in a series</a></li>
     <li><a href="009/">Special Pythagorean triplet</a></li>
     <li><a href="010/">Summation of primes</a></li>
+    <li><a href="011/">Largest product in a grid</a></li>
 
   </ol>
 </details>
