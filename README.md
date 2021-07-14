@@ -46,6 +46,7 @@
     <li><a href="021/">Amicable numbers</a></li>
     <li><a href="022/">Names scores</a></li>
     <li><a href="023/">Non-abundant sums</a></li>
+    <li><a href="024/">Lexicographic permutations</a></li>
   </ol>
 </details>
 
