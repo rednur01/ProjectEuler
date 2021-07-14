@@ -48,6 +48,7 @@
     <li><a href="023/">Non-abundant sums</a></li>
     <li><a href="024/">Lexicographic permutations</a></li>
     <li><a href="025/">1000-digit Fibonacci number</a></li>
+    <li><a href="026/">Reciprocal cycles</a></li>
   </ol>
 </details>
 
