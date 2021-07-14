@@ -45,6 +45,7 @@
     <li><a href="020/">Factorial digit sum</a></li>
     <li><a href="021/">Amicable numbers</a></li>
     <li><a href="022/">Names scores</a></li>
+    <li><a href="023/">Non-abundant sums</a></li>
   </ol>
 </details>
 
