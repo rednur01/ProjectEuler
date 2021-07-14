@@ -22,10 +22,9 @@ day: int = start_day
 
 for year in range(start_year, end_year+1):
   months: list[int] = month_days_in_leap_year if is_leap(year) else month_days_in_year
-  for month_index, month_days in enumerate(months):
+  for month_days in months:
     if year != 1900 and day % 7 == 0:
       total_sundays += 1
-      print(f"{month_index+1}/{year}")
     day = (day + month_days) % 7
 
 print(total_sundays)
