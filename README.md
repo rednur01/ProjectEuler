@@ -42,6 +42,7 @@
     <li><a href="017/">Number letter counts</a></li>
     <li><a href="018/">Maximum path sum I</a></li>
     <li><a href="019/">Counting Sundays</a></li>
+    <li><a href="020/">Factorial digit sum</a></li>
   </ol>
 </details>
 
