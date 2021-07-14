@@ -41,6 +41,7 @@
     <li><a href="016/">Power digit sum</a></li>
     <li><a href="017/">Number letter counts</a></li>
     <li><a href="018/">Maximum path sum I</a></li>
+    <li><a href="019/">Counting Sundays</a></li>
   </ol>
 </details>
 
