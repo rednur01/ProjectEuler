@@ -44,6 +44,7 @@
     <li><a href="019/">Counting Sundays</a></li>
     <li><a href="020/">Factorial digit sum</a></li>
     <li><a href="021/">Amicable numbers</a></li>
+    <li><a href="022/">Names scores</a></li>
   </ol>
 </details>
 
