@@ -50,6 +50,7 @@
     <li><a href="025/">1000-digit Fibonacci number</a></li>
     <li><a href="026/">Reciprocal cycles</a></li>
     <li><a href="027/">Quadratic primes</a></li>
+    <li><a href="028/">Number spiral diagonals</a></li>
   </ol>
 </details>
 
