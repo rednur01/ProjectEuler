@@ -54,6 +54,7 @@
     <li><a href="029/">Distinct powers</a></li>
     <li><a href="030/">Digit fifth powers</a></li>
     <li><a href="031/">Coin sums</a></li>
+    <li><a href="032/">Pandigital products</a></li>
   </ol>
 </details>
 
