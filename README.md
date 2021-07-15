@@ -52,6 +52,7 @@
     <li><a href="027/">Quadratic primes</a></li>
     <li><a href="028/">Number spiral diagonals</a></li>
     <li><a href="029/">Distinct powers</a></li>
+    <li><a href="030/">Digit fifth powers</a></li>
   </ol>
 </details>
 
