@@ -60,6 +60,7 @@
     <li><a href="035/">Circular primes</a></li>
     <li><a href="036/">Double-base palindromes</a></li>
     <li><a href="037/">Truncatable primes</a></li>
+    <li><a href="038/">Pandigital multiples</a></li>
   </ol>
 </details>
 
