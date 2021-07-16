@@ -1,21 +1,30 @@
 # Truncatable primes
 
-# Allowed digits = [1,3,7,9]
+### Method ###
+
+# Allowed digits anywhere except the start = [1,3,7,9]
 # If the other digits are allowed, such as 2, then during
 # right-truncation that digit would eventually be exposed as the last
 # digit, and prime numbers cannot end in even digits or 5 or 0
-# (Exception: 2 and 5 can be *starting* digits)
+# (Exception: 2 and 5 can be *starting* digits since a right-truncation ending
+# in 2 or 5 can still be prime)
 
 # If we start with an N-digit number and truncate once, we have an (N-1) digit
 # number left which must be a prime
 
-# So we can start by considering all 2-digit primes within this ruleset
+# We can start by considering all 2-digit primes within this ruleset
 # then all 3-digits, and slowly build up a "primes-for-N-digits" ladder
 
-# If we reach a digit N where no primes with this ruleset exist then we have
-# found all truncatable primes below this limit
+### Optimization ###
 
-# Exceptions to this rule: 23 and 53
+# We can build up a right-concatenation-only ladder, which results in primes
+# that are already right-truncatable, and we only need to check for left-truncatability
+
+### Domain restriction ###
+
+# Since we're building up a ladder of right-truncatable primes
+# and filtering on that list by left-truncatability, if we find a
+# rung with no right-truncatable primes then we've found an upper bound
 
 from math import ceil, sqrt
 
@@ -37,7 +46,7 @@ def is_prime(n: int) -> bool:
   return True
 
 allowed_digits: list[int] = [1,3,7,9]
-primes_per_rung: list[list[int]] = [[3,7]]
+primes_per_rung: list[list[int]] = [[2,3,5,7]]
 
 def prime_ladder_next_rung(n: int) -> list[int]:
   right_concats: list[int] = [int(str(n) + str(d)) for d in allowed_digits]
@@ -47,10 +56,6 @@ def prime_ladder_next_rung(n: int) -> list[int]:
   for rc in right_concats:
     if is_prime(rc):
       next_rung.append(rc)
-
-  for lc in left_concats:
-    if is_prime(lc):
-      next_rung.append(lc)
   
   return next_rung
 
@@ -74,17 +79,11 @@ def is_left_truncatable_prime(n: int) -> bool:
   
   return True
 
-def is_either_truncatable_prime(n: int) -> bool:
-  return is_left_truncatable_prime(n) or is_right_truncatable_prime(n)
-
-def is_truncatable_prime(n: int) -> bool:
-  return is_left_truncatable_prime(n) and is_right_truncatable_prime(n)
-
-truncatable_primes: list[int] = [23, 53]
+truncatable_primes: list[int] = []
 current_rung: int = 0
-num_truncatable_primes_this_rung: int = 2
+num_primes_last_rung: int = 1
 
-while num_truncatable_primes_this_rung > 0:
+while num_primes_last_rung > 0:
   next_rung: list[int] = []
 
   for prime in primes_per_rung[current_rung]:
@@ -95,11 +94,10 @@ while num_truncatable_primes_this_rung > 0:
   
   truncatable = list(filter(is_left_truncatable_prime,next_rung))
   truncatable_primes.extend(truncatable)
-  num_truncatable_primes_this_rung = len(truncatable)
+
+  num_primes_last_rung = len(next_rung)
 
   current_rung += 1
-
-truncatable_primes = list(filter(is_right_truncatable_prime, truncatable_primes))
 
 print(truncatable_primes)
 print(f"sum = {sum(truncatable_primes)}")
