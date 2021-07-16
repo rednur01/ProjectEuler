@@ -57,6 +57,7 @@
     <li><a href="032/">Pandigital products</a></li>
     <li><a href="033/">Digit cancelling fractions</a></li>
     <li><a href="034/">Digit factorials</a></li>
+    <li><a href="035/">Circular primes</a></li>
   </ol>
 </details>
 
