@@ -95,9 +95,8 @@ while num_primes_last_rung > 0:
   truncatable = list(filter(is_left_truncatable_prime,next_rung))
   truncatable_primes.extend(truncatable)
 
-  num_primes_last_rung = len(next_rung)
-
   current_rung += 1
+  num_primes_last_rung = len(next_rung) #became last rung after increment
 
 print(truncatable_primes)
 print(f"sum = {sum(truncatable_primes)}")
