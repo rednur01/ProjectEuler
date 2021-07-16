@@ -58,6 +58,7 @@
     <li><a href="033/">Digit cancelling fractions</a></li>
     <li><a href="034/">Digit factorials</a></li>
     <li><a href="035/">Circular primes</a></li>
+    <li><a href="036/">Double-base palindromes</a></li>
   </ol>
 </details>
 
