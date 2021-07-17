@@ -64,6 +64,7 @@
     <li><a href="039/">Integer right triangles</a></li>
     <li><a href="040/">Champernowne's constant</a></li>
     <li><a href="041/">Pandigital prime</a></li>
+    <li><a href="042/">Coded triangle numbers</a></li>
   </ol>
 </details>
 
