@@ -73,6 +73,7 @@
     <li><a href="047/">Distinct prime factors</a></li>
     <li><a href="048/">Self powers</a></li>
     <li><a href="049/">Prime permutations</a></li>
+    <li><a href="050/">Consecutive prime sum</a></li>
   </ol>
 </details>
 
