@@ -67,6 +67,7 @@
     <li><a href="042/">Coded triangle numbers</a></li>
     <li><a href="043/">Sub-string divisibility</a></li>
     <li><a href="044/">Pentagon numbers</a></li>
+    <li><a href="045/">Triangular, pentagonal, and hexagonal</a></li>
   </ol>
 </details>
 
