@@ -69,6 +69,8 @@
     <li><a href="044/">Pentagon numbers</a></li>
     <li><a href="045/">Triangular, pentagonal, and hexagonal</a></li>
     <li><a href="045/">Goldbach's other conjecture</a></li>
+    <li><a href="046/">Goldbach's other conjecture</a></li>
+    <li><a href="047/">Distinct prime factors</a></li>
   </ol>
 </details>
 
