@@ -55,20 +55,3 @@ for prime in primes:
     if (prime + i in all_permutations and prime + i in primes and
         prime + 2 * i in all_permutations and prime + 2 * i in primes):
       print(prime, prime+i, prime + 2*i, i)
-  
-# for prime in primes:
-#   all_permutations = permutations(str(prime), 4)
-#   all_permutations = map(lambda p: int("".join(p)), all_permutations)
-  
-#   prime_permutations: set[int] = set([])
-
-#   for permutation in all_permutations:
-#     if permutation in primes:
-#       prime_permutations.add(permutation)
-  
-#   ordered_permutations: list[int] = list(prime_permutations)
-#   ordered_permutations.sort()
-
-#   if len(ordered_permutations) >= 3:
-#     gaps_between_primes: list[int] = find_gaps(ordered_permutations)
-
