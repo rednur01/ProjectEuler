@@ -71,6 +71,8 @@
     <li><a href="045/">Goldbach's other conjecture</a></li>
     <li><a href="046/">Goldbach's other conjecture</a></li>
     <li><a href="047/">Distinct prime factors</a></li>
+    <li><a href="048/">Self powers</a></li>
+    <li><a href="049/">Prime permutations</a></li>
   </ol>
 </details>
 
