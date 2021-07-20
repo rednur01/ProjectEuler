@@ -74,6 +74,7 @@
     <li><a href="048/">Self powers</a></li>
     <li><a href="049/">Prime permutations</a></li>
     <li><a href="050/">Consecutive prime sum</a></li>
+    <li><a href="051/">Prime digit replacements</a></li>
   </ol>
 </details>
 
