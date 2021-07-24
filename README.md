@@ -79,6 +79,7 @@
     <li><a href="053/">Combinatoric selections</a></li>
     <li><a href="054/">Poker hands</a></li>
     <li><a href="055/">Lychrel numbers</a></li>
+    <li><a href="056/">Powerful digit sum</a></li>
   </ol>
 </details>
 
