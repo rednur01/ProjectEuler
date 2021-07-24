@@ -82,6 +82,7 @@
     <li><a href="056/">Powerful digit sum</a></li>
     <li><a href="057/">Square root convergents</a></li>
     <li><a href="058/">Spiral primes</a></li>
+    <li><a href="059/">XOR decryption</a></li>
   </ol>
 </details>
 
