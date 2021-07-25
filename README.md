@@ -83,6 +83,7 @@
     <li><a href="057/">Square root convergents</a></li>
     <li><a href="058/">Spiral primes</a></li>
     <li><a href="059/">XOR decryption</a></li>
+    <li><a href="060/">Prime pair sets</a></li>
   </ol>
 </details>
 
