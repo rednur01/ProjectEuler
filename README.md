@@ -84,6 +84,7 @@
     <li><a href="058/">Spiral primes</a></li>
     <li><a href="059/">XOR decryption</a></li>
     <li><a href="060/">Prime pair sets</a></li>
+    <li><a href="061/">Cyclical figurate numbers</a></li>
   </ol>
 </details>
 
