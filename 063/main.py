@@ -1,5 +1,11 @@
 # Powerful digit counts
 
+# Method
+# For n > 10, the number of digits always exceeds
+# the power of n
+# Only check 1 through 10, and stop when then number of digits
+# deviates too far from the power (indicating divergence)
+
 matching_numbers: list[str] = []
 
 for n in range(1, 10):
