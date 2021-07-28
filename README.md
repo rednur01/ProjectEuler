@@ -85,6 +85,7 @@
     <li><a href="059/">XOR decryption</a></li>
     <li><a href="060/">Prime pair sets</a></li>
     <li><a href="061/">Cyclical figurate numbers</a></li>
+    <li><a href="062/">Cubic permutations</a></li>
   </ol>
 </details>
 

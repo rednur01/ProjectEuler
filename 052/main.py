@@ -1,13 +1,14 @@
 # Permuted multiples
 
-def is_permutation(original: int, other: int) -> bool:
-  og_digits: list[str] = [digit for digit in str(original)]
-  other_digits: list[str] = [digit for digit in str(other)]
+def is_permutation(first: int, second: int) -> bool:
+  first_digits: list[str] = [digit for digit in str(first)]
+  second_digits: list[str] = [digit for digit in str(second)]
 
-  is_same_length = len(og_digits) == len(other_digits)
-  have_same_digits = set(og_digits) == set(other_digits)
+  for digit in first_digits:
+    if first_digits.count(digit) != second_digits.count(digit):
+      return False
 
-  return is_same_length and have_same_digits
+  return len(first_digits) == len(second_digits)
 
 for x in range(100, 1_000_000_000):
   multiples = [x*2, x*3, x*4, x*5, x*6]
